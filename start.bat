@@ -1,1 +1,0 @@
-tsp --add-input-stuffing 1/10 -I srt 127.0.0.2:9999 -P pmt --service 0001 --add-programinfo-id 0x43554549 --add-pid 600/0x86 -P spliceinject --udp 9999 --service 0001 -P splicemonitor -P filter --negate --pid 0x1FFF -O file C:\Users\wvaug\Videos\output.ts
