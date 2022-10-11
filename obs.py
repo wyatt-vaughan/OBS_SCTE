@@ -51,7 +51,6 @@ def sendSCTE(seconds):
     dataToSend = str.encode(data)
 
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    print(dataToSend)
     sock.sendto(dataToSend, (UDP_IP, UDP_PORT))
     sock.close()
     
