@@ -28,5 +28,9 @@ There is a roadmap for the ts stream and a roadmap for the SCTE data
 
 - Install TSduck for your specific operating system (TSduck goes further into detail per operating system)
 - Make sure python 3.6 is used in OBS and import obs.py into the scripts of OBS
-- The current setting for OBS stream is `srt://127.0.0.2:9999?mode=listener&transtype=live&latency=3000000&ffs=128000&rcvbuf=100058624` but feel free to change them, this is just what is working for us
+- The current setting for OBS stream is
+ ```srt://127.0.0.2:9999?mode=listener&transtype=live&latency=3000000&ffs=128000&rcvbuf=100058624``` but feel free to change them, this is just what is working for us
+
+ ## OBS script
+ 
 
